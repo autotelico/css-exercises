@@ -1,0 +1,12 @@
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* I did a combinatin of type and class selectors for the CSS rule above. Possible other changes could be:  
+div p 
+.container p
+.container .text
+*/
