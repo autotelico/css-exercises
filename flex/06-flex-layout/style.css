@@ -1,4 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ul {
+  list-style-type: none;
+}
+
+.header {
+  background: peachpuff;
+  display: flex;
+}
+
+.left-links {
+  flex: 1;
+  margin-left: 100px;
+  background: red;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
+  margin-bottom: vh;
+  background: violet;
+  flex: 1;
+  flex-direction: column;
+}
+
+.right-links {
+  flex: 1;
+  margin-left: auto;
+  margin-right: 100px;
+  background: blue;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
 
 body {
   height: 100vh;
@@ -23,5 +61,15 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-top: 20px;
   margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: brown;
+  margin-top: auto;
+  border: solid;
 }
