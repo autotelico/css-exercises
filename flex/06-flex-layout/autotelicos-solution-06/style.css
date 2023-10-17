@@ -6,15 +6,19 @@ ul {
 .header {
   background: peachpuff;
   display: flex;
+  height: 10vh;
 }
 
 .left-links {
   flex: 1;
-  margin-left: 100px;
-  background: red;
+  margin-left: 5vw;
+  height: 5vh;
+  width: auto;
+  font-size: 25px;
   display: flex;
   justify-content: flex-start;
-  gap: 16px;
+  align-items: center;
+  gap: 2vw;
 }
 
 .content {
@@ -22,20 +26,21 @@ ul {
   justify-content: center;
   align-items: center;
   margin-top: 25vh;
-  margin-bottom: vh;
-  background: violet;
+  margin-bottom: 25vh;
   flex: 1;
   flex-direction: column;
 }
 
 .right-links {
   flex: 1;
-  margin-left: auto;
-  margin-right: 100px;
-  background: blue;
+  margin-right: 5vw;
+  height: 5vh;
+  width: auto;
+  font-size: 25px;
   display: flex;
   justify-content: flex-end;
-  gap: 16px;
+  align-items: center;
+  gap: 2vw;
 }
 
 body {
@@ -52,24 +57,45 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
-  background: #eee;
+  border-radius: 50px 15px 0px;
+}
+
+.buttons {
+  margin-bottom: 0px;
 }
 
 input {
+  display: block;
+  color: darkgreen;
+  background: peachpuff;
   border: 1px solid #ddd;
-  border-radius: 16px;
+  border-radius: 40px 5px 0px 0px;
   padding: 8px 24px;
   width: 400px;
   margin-top: 20px;
   margin-bottom: 16px;
 }
 
+p {
+  display: inline;
+  color: lightgray;
+  width: auto;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
 .footer {
+  height: 7vh;
   display: flex;
-  flex-direction: column;
   justify-content: flex-end;
-  background: brown;
+  align-items: center;
+  background: lightgray;
   margin-top: auto;
-  border: solid;
+  padding: 16px;
+  min-width: auto;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
