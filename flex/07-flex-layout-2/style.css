@@ -55,20 +55,24 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 250px;
-  width: 200px;
-  display: flex;
-  gap: 10px;
+  height: 200px;
+  width: 300px;
+  
 }
 
 .card-container {
-  margin: 0 0 auto auto;
-  height: 1200px;
-  width: 1200px;
+  margin: 0;
+  height: 90vh;
+  width: 35vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 30px;
   background: pink;
+}
+
+.center-wrap {
+  display: flex;
 }
