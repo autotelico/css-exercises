@@ -32,7 +32,7 @@ body {
 
 .sidebar {
   width: 300px;
-  height: 60vh;
+  height: auto;
   background: royalblue;
   box-sizing: border-box;
   display: flex;
@@ -41,9 +41,11 @@ body {
 
 ul {
   list-style-type: none;
-  display: fle;
   border: solid;
   margin: 10px 20px 0 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 a {
@@ -56,16 +58,15 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   height: 200px;
-  width: 300px;
+  width: 400px;
   
 }
 
 .card-container {
-  margin: 0;
+  margin: 0 auto;
   height: 90vh;
-  width: 35vw;
+  width: 60vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -75,4 +76,6 @@ a {
 
 .center-wrap {
   display: flex;
+  gap: 60px;
+  border: 5px solid black;
 }
