@@ -3,6 +3,12 @@ ul {
   list-style-type: none;
 }
 
+a {
+  display: hidden;
+  text-decoration: none;
+  color: gray;
+}
+
 .header {
   background: peachpuff;
   display: flex;
