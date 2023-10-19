@@ -7,12 +7,14 @@ body {
 }
 
 .header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
   display: flex;
   align-items: center;
-  padding-left: 10px;
 }
 
 /* Try to make a footer without that position property! */
@@ -31,17 +33,18 @@ body {
 }
 
 .sidebar {
+  box-sizing: border-box;
   width: 300px;
   height: auto;
   background: royalblue;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  flex: none;
 }
 
 ul {
   list-style-type: none;
-  border: solid;
+  font-size: 24px;
   margin: 10px 20px 0 5px;
   display: flex;
   flex-direction: column;
@@ -57,25 +60,26 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 200px;
+  height: 300px;
   width: 400px;
   
 }
 
 .card-container {
   margin: 0 auto;
-  height: 90vh;
-  width: 60vw;
+  height: auto;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-  background: pink;
+  padding: 32px;
 }
 
 .center-wrap {
   display: flex;
-  gap: 60px;
-  border: 5px solid black;
+  flex: 1;
+  height: auto;
+  width: auto;
 }
