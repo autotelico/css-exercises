@@ -7,21 +7,22 @@ body {
 }
 
 .header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
   display: flex;
   align-items: center;
-  padding-left: 10px;
 }
 
 /* Try to make a footer without that position property! */
 .footer { 
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -31,19 +32,22 @@ body {
 }
 
 .sidebar {
-  width: 300px;
-  height: 60vh;
-  background: royalblue;
   box-sizing: border-box;
+  width: 300px;
+  height: auto;
+  background: royalblue;
   display: flex;
   flex-direction: column;
+  flex: none;
 }
 
 ul {
   list-style-type: none;
-  display: fle;
-  border: solid;
+  font-size: 24px;
   margin: 10px 20px 0 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 a {
@@ -55,20 +59,27 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 250px;
-  width: 200px;
-  display: flex;
-  gap: 10px;
+  height: 300px;
+  width: 400px;
+  padding: 16px;
+  
 }
 
 .card-container {
-  margin: 0 0 auto auto;
-  height: 1200px;
-  width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: pink;
+  gap: 30px;
+  padding: 32px;
+}
+
+.center-wrap {
+  display: flex;
+  flex: 1;
+  height: auto;
+  width: auto;
 }
